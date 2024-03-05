@@ -12,7 +12,6 @@
         <div class="flex flex-col items-center w-2/6 h-72 bg-white rounded-md shadow-md max-[480px]:w-full">
             <img src="{{ asset('assets/'.$user->avatar)}}" alt="" class="rounded-full w-36 h-36">
             <input type="file" name="avatar" class=" border items-center w-60 h-10 mt-4 rounded-md">
-            <button class="w-48 py-1 mt-4 text-white rounded-md bg-blue-500">Ubah Password</button>
         </div>
 
         <div class="w-3/5 max-[480px]:w-full bg-black rounded-md">
